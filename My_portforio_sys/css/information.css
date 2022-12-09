@@ -1,0 +1,207 @@
+*{
+    width: 100%;
+    margin-top: 0px;
+}
+
+body{
+    width: 100%;
+    margin-bottom: 0;
+}
+li{
+    list-style-type: circle;
+    font-size: 40px;
+    font-style: italic;
+    color: chartreuse;
+}
+
+.grid-container{
+    display: grid;
+    grid-gap:10px;
+    grid-template-areas: 
+    'stores map map map'  
+    'japan map map map'
+    'usa map map map'
+    'england map map map'
+    'france map map map'
+    'spain map map map'
+    'hongkong map map map'
+    'singapole map map map'
+    'shanhai map map map'
+    'dubai map map map';
+}
+
+
+
+
+.map{
+    grid-area: map;
+}
+.stores{
+    grid-area: stores;
+    font-size: 44px;
+    font-style: italic;
+    color: blue;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.japan{
+    grid-area: japan;
+}
+
+.usa{
+    grid-area: usa;
+}
+
+.england{
+    grid-area: england;
+}
+.france{
+    grid-area: france;
+}
+
+.spain{
+    grid-area: spain;
+}
+
+.hongkong{
+    grid-area: hongkong;
+}
+
+.singapole{
+    grid-area: singapole;
+}
+
+.shanhai{
+    grid-area: shanhai;
+}
+
+.dubai{
+    grid-area: dubai;
+}
+
+
+
+@media  screen and (max-width:425px){
+
+
+    *{
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .grid-container{
+        display: grid;
+        height:800px;
+        grid-gap:10px;
+        grid-template-areas: 
+        'map map map map' 
+        'map map map map' 
+        'map map map map' 
+        'map map map map'  
+        'stores stores stores stores'
+        '  japan japan japan japan  '
+        'england england usa usa '
+        'france france spain spain '
+        'hongkong hongkong singapole singapole '
+        ' shanhai shanhai dubai  dubai';
+    }
+
+    .map{
+        width: 48%;
+        height: 400px;
+        grid-area: map;
+    }
+
+    .japan{
+        grid-area: japan;
+    }
+    
+    .usa{
+        grid-area: usa;
+    }
+    
+    .england{
+        grid-area: england;
+    }
+    .france{
+        grid-area: france;
+    }
+    
+    .spain{
+        grid-area: spain;
+    }
+    
+    .hongkong{
+        grid-area: hongkong;
+    }
+    
+    .singapole{
+        grid-area: singapole;
+    }
+    
+    .shanhai{
+        grid-area: shanhai;
+    }
+    
+    .dubai{
+        grid-area: dubai;
+    }
+    
+   
+    li{
+        list-style-type: circle;
+        font-size:20px;
+        font-style: italic;
+        color: chartreuse;
+    }
+    .japan{
+        width: 98%;
+    }
+
+    .usa{
+        width: 98%;
+    }
+    .england{
+        width: 98%;
+    }
+    
+
+    .france{
+        width: 98%;
+    }
+
+    .spain{
+        width: 98%;
+    }
+
+    .hongkong{
+        width: 98%;
+    }
+
+    .singapole{
+        width: 98%;
+    }
+    .shanhai{
+        width: 98%;
+    }
+
+    .dubai{
+        width: 98%;
+    }
+   
+    
+    
+    
+    
+    
+    .stores{
+        width: 98%;
+        font-size: 22px;
+        font-style: italic;
+        color: blue;
+        padding-left: 5px;
+        padding-top: 5px;
+    }
+   
+    
+}    

@@ -1,0 +1,36 @@
+body{
+    width: 100%;
+    background-image: url(../cyurip.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+
+
+h1{
+    font-size: 60px;
+    color:#003366;
+}
+
+
+
+@media  screen and (max-width:425px){
+    
+    
+    *{
+        width: auto;
+    }
+    body{
+        width: 98%;
+        height: 500px;
+        background-image: url(../cyurip.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    h1{
+        font-size: 40px;
+        color:#003366;
+    }
+
+}

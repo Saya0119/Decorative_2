@@ -1,0 +1,796 @@
+*{
+    width: 100%;
+    margin-top: 0px;
+}
+
+header{
+    width: 100%;
+    height:180px;
+    margin-bottom: 0;
+}
+
+nav{
+    width: 100%;
+    height:40px;
+    margin-top: 0;
+    /* background-color:palevioletred; */
+    margin-bottom: 0;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+nav>.btn,
+nav>a.btn{
+    color: #003366;
+    background-color: lightcoral;
+    height:40px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50vh;
+    font-family: 'Gabriela', serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav>.btn:hover:hover,
+nav>a.btn:hover{
+    color: gold;
+    background:white ;
+}
+
+
+
+
+#deco_star{
+    width: 145px;
+    height: 180px;
+}
+
+.header_logo{
+    font-size: 70px;
+    font-family: 'Gabriela', serif;
+    color: #003366;
+    font-style: italic;
+    font-weight: 700;
+}
+
+
+#tree{
+    width: 450px;
+    height: 264px;
+    margin-right: 0;
+}
+
+header{
+    background-color: aqua;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+ 
+
+    
+    
+.star_psuedo>img{
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+    
+.star_psuedo>img:hover{
+    background-color: gold;
+    width: 25px;
+    height: 25px;
+    transform: rotate(180deg);
+    opacity: 1;
+    }
+
+main{
+    width: 100%;
+    margin-top: 0;
+    background-color: #003366;
+    height: 270px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+main>p{
+    font-weight: 700;
+    font-family:'Gabriela', serif ;
+    font-style: italic;
+    color: #AF9F30;
+    font-size: 30px;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 10px; 
+
+}
+
+
+main>svg:nth-child(1){
+    width: 20px;
+    height: 20px;
+}
+main>svg:nth-child(2){
+    width: 20px;
+    height: 20px;
+}
+main>svg:nth-child(3){
+    width: 20px;
+    height: 20px;
+}
+main>svg:nth-child(4){
+    width: 20px;
+    height: 20px;
+}
+
+
+main>img{
+    margin-right: 0;
+}
+
+#new_line{
+    width: 100%;
+    height: 75px;
+    background-color: plum;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 60px;
+    font-family: 'Gabriela', serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #003366;
+    margin-bottom: 0;
+}
+.new_line_1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    /* background-color: royalblue; */
+    height: auto;
+    font-family: 'Gabriela', serif;
+    font-style: italic;
+    color: black;
+}
+
+
+.boot>img{
+    width: 190px;
+    height: 200px;
+}
+
+.star-tree>img{
+    width: 190px;
+    height: 200px;
+}
+
+.santa>img{
+    width: 190px;
+    height: 200px;
+}
+.candy>img{
+    width: 190px;
+    height: 200px;
+}
+.tree_2>img{
+    width: 190px;
+    height: 200px;
+}
+
+
+.imported_line{
+    width: 100%;
+    height: 75px;
+    background-color: lightskyblue;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 60px;
+    font-family: 'Gabriela', serif;
+    color: #003366;
+    margin-bottom: 0;
+    font-style: italic;
+}
+.imported_line_1{
+    margin-top: 0;
+    /* background-color: lightcoral; */
+    height: auto;
+    font-family: 'Gabriela', serif;
+    font-style: italic;
+    color: black;
+}
+
+
+.house>img{
+    width: 190px;
+    height: 200px;
+}
+
+.castle>img{
+    width: 190px;
+    height: 200px;
+}
+
+.sled>img{
+    width: 190px;
+    height: 200px;
+}
+.rein-deer>img{
+    width: 190px;
+    height: 200px;
+}
+.Unicorn>img{
+    width: 190px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+.specialities{
+    width: 100%;
+    height: 75px;
+    background-color:lightyellow;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 60px;
+    font-family: 'Gabriela', serif;
+    color: #003366;
+    margin-bottom: 0;
+}
+.specialities_1{
+    margin-top: 0;
+    /* background-color: lightgreen; */
+    height: auto;
+    font-family: 'Gabriela', serif;
+    font-style: italic;
+    color: black;
+    font-weight: 700;
+    
+}
+
+
+.angel>img{
+    width: 190px;
+    height: 200px;
+    vertical-align: top;
+}
+
+.special-star>img{
+    width: 190px;
+    height: 200px;
+}
+
+.doggy>img{
+    width: 190px;
+    height: 200px;
+}
+.candy_2>img{
+    width: 190px;
+    height: 200px;
+}
+.card>img{
+    width: 190px;
+    height: 200px;
+}
+
+
+.onsale{
+    width: 100%;
+    height: 75px;
+    background-color:lightseagreen;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 60px;
+    font-family: 'Gabriela', serif;
+    color: #003366;
+    margin-bottom: 0;
+}
+
+.message{
+    width: 100%;
+    height: 280px;
+    background-color:#003366;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 32px;
+    font-family: 'Gabriela', serif;
+    color: #AF9F30;
+    margin-bottom: 0;
+    text-align: left;
+    font-weight: 700;
+    font-style: italic;
+    padding-top: 20px;
+}
+
+
+/* footer{ */
+    /* width: 100%; */
+    /* height: 50px; */
+    /* background-color:pink; */
+    
+    
+/* } */
+
+.footer{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 24px;
+    font-family: 'Gabriela', serif;
+    color: black;
+    margin-bottom: 10px;
+    text-align: left;
+    
+    font-style: italic;
+}
+
+
+.facebook{
+    height: 60px;
+    width: 60px;
+    /* background: #003366; */
+    
+}
+
+.twitter{
+    height: 60px;
+    width: 60px;
+    /* background: #003366; */
+   
+}
+
+.tiktok{
+    height: 60px;
+    width: 60px;
+    /* background: #003366; */
+    
+}
+
+
+
+
+
+@media  screen and (max-width:425px){
+    
+    
+    *{
+        width: auto;
+    }
+    body{
+        width: 100%;
+    }
+    nav{
+        width: 96%;
+        height:40px;
+        margin-top: 0px;
+        /* background-color:palevioletred; */
+        margin-bottom: 0px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+
+    nav>.btn:nth-child(2){
+        padding-left: 5px;
+    }
+
+    nav>.btn:nth-child(3){
+        padding-left: 5px;
+    }
+
+    nav>.btn:nth-child(4){
+
+        padding-left: 5px;
+    }
+    
+    nav>.btn,
+    nav>a.btn{
+        color: #003366;
+        background-color: lightcoral;
+        height:40px;
+        text-align: center;
+        line-height: 35px;
+        border-radius: 5vh;
+        font-family: 'Gabriela', serif;
+        font-style: italic;
+        font-size: 10px;
+        font-weight: 500;
+        width:50px;
+    }
+    
+    nav>.btn:hover:hover,
+    nav>a.btn:hover{
+        color: gold;
+        background:white ;
+    }
+    
+    header{
+        width: 96%;
+        height: 100px;
+        margin-bottom: 0px;
+    }
+    
+    
+    #deco_star{
+        width: 118px;
+        height: 100px;
+        margin-left: 0px;
+    }
+    
+    .header_logo{
+        
+        font-size: 24px;
+        font-family: 'Gabriela', serif;
+        color: #003366;
+        font-style: italic;
+        font-weight: 700;
+        text-align: left;
+        align-items: center;
+        padding-top: 30px;
+        padding-left: 0px;
+    }
+
+    .new{
+        
+        padding-left: 50px;
+        padding-top: 20px;
+        font-size: 10px;
+    }
+
+    .login{
+        padding-top: 20px;
+        font-size: 10px;
+    }
+
+    
+   
+
+    
+    
+    #tree{
+        width: 150px;
+        height: 200px;
+        margin-right: 0;
+    }
+    
+    header{
+        background-color: aqua;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    
+    
+    main{
+        width: 96%;
+        margin-top: 0px;
+        background-color: #003366;
+        height: 200px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+    }
+    
+    main>p{
+        font-weight: 700;
+        font-family:'Gabriela', serif ;
+        font-style: italic;
+        color: #AF9F30;
+        font-size: 20px;
+        text-align: left;
+        padding-top: 40px;
+        padding-left: 10px; 
+    
+    }
+
+    .star_psuedo>img{
+        width: 10px;
+        height: 10px;
+        opacity: 0.5;
+        transition: width 2s, height 2s, background-color 2s, transform 2s;
+    }
+        
+    .star_psuedo>img:hover{
+        background-color: gold;
+        width: 7.5px;
+        height: 7.5px;
+        transform: rotate(180deg);
+        opacity: 1;
+        }
+    
+    
+    main>svg:nth-child(1){
+        width: 20px;
+        height: 20px;
+    }
+    main>svg:nth-child(2){
+        width: 20px;
+        height: 20px;
+    }
+    main>svg:nth-child(3){
+        width: 20px;
+        height: 20px;
+    }
+    main>svg:nth-child(4){
+        width: 20px;
+        height: 20px;
+    }
+    
+    
+    main>img{
+        margin-right: 0px;
+    }
+    
+    #new_line{
+        width: 96%;
+        height: 60px;
+        background-color: plum;
+        text-align: center;
+        vertical-align: middle;
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 40px;
+        font-family: 'Gabriela', serif;
+        font-weight: 700;
+        font-style: italic;
+        color: #003366;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding-top: 10px;
+    }
+    .new_line_1{
+        width: 96%;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        /* background-color: royalblue; */
+        height: auto;
+        font-family: 'Gabriela', serif;
+        font-style: italic;
+        color: black;
+    }
+    
+    
+    .boot>img{
+        width: 110px;
+        height: 125px;
+    }
+    
+    .star-tree>img{
+        width: 110px;
+        height: 125px;
+    }
+    
+    .santa>img{
+        width: 110px;
+        height: 125px;
+    }
+    .candy>img{
+        width: 110px;
+        height: 125px;
+    }
+    .tree_2>img{
+        width: 110px;
+        height: 125px;
+    }
+    
+    
+    .imported_line{
+        width: 96%;
+        height: 60px;
+        background-color: lightskyblue;
+        text-align: center;
+        vertical-align: middle;
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 40px;
+        font-family: 'Gabriela', serif;
+        color: #003366;
+        /* margin-bottom: 0; */
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding-top: 10px;
+        font-style: italic;
+    }
+    .imported_line_1{
+        width: 96%;
+        margin-top: 0;
+        /* background-color: lightcoral; */
+        height: auto;
+        font-family: 'Gabriela', serif;
+        font-style: italic;
+        color: black;
+    }
+    
+    
+    .house>img{
+        width: 110px;
+        height: 125px;
+    }
+    
+    .castle>img{
+        width: 110px;
+        height: 125px;
+    }
+    
+    .sled>img{
+        width: 110px;
+        height: 125px;
+    }
+    .rein-deer>img{
+        width: 110px;
+        height: 125px;
+    }
+    .Unicorn>img{
+        width: 110px;
+        height: 125px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .specialities{
+        width: 96%;
+        height: 60px;
+        background-color:lightyellow;
+        text-align: center;
+        vertical-align: middle;
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 40px;
+        font-family: 'Gabriela', serif;
+        color: #003366;
+        /* margin-bottom: 0; */
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding-top: 10px;
+        font-style: italic;
+    }
+    .specialities_1{
+        width: 96%;
+        margin-top: 0;
+        /* background-color: lightgreen; */
+        height: auto;
+        font-family: 'Gabriela', serif;
+        font-style: italic;
+        color: black;
+        
+        
+    }
+    
+    
+    .angel>img{
+        width: 110px;
+        height: 125px;
+        vertical-align: top;
+    }
+    
+    .special-star>img{
+        width: 110px;
+        height: 125px;
+    }
+    
+    .doggy>img{
+        width: 110px;
+        height: 125px;
+    }
+    .candy_2>img{
+        width: 110px;
+        height: 125px;
+    }
+    .card>img{
+        width: 110px;
+        height: 125px;
+    }
+    
+    
+    .onsale{
+        width: 96%;
+        height: 60px;
+        background-color:lightseagreen;
+        text-align: center;
+        vertical-align: middle;
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 40px;
+        font-family: 'Gabriela', serif;
+        color: #003366;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding-top: 10px;
+        font-style: italic;
+
+
+
+    }
+    
+    .message{
+        width: 96%;
+        height: 200px;
+        background-color:#003366;
+        text-align: center;
+        vertical-align: middle;
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 20px;
+        font-family: 'Gabriela', serif;
+        color: #AF9F30;
+        margin-bottom: 0;
+        text-align: left;
+        font-weight: 700;
+        font-style: italic;
+        padding-top: 20px;
+    }
+    
+    
+    /* footer{ */
+        /* width: 100%; */
+        /* height: 50px; */
+        /* background-color:pink; */
+        
+        
+    /* } */
+    
+    .footer{
+        width: 96%;
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 10px;
+        font-family: 'Gabriela', serif;
+        color: black;
+        margin-bottom: 10px;
+        text-align: left;
+        
+        font-style: italic;
+    }
+    
+    
+    .facebook{
+        height: 30px;
+        width: 30px;
+        padding-top: 10px;
+    }
+    
+    .twitter{
+        height: 30px;
+        width: 30px;
+        padding-top: 10px;
+    }
+    
+    .tiktok{
+        height: 30px;
+        width: 30px;
+        padding-top: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
